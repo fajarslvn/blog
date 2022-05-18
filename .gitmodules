@@ -1,0 +1,7 @@
+[submodule "fajarslvnblog/themes/hugo-theme-console"]
+	path = fajarslvnblog/themes/hugo-theme-console
+	url = https://github.com/mrmierzejewski/hugo-theme-console.git
+[submodule "fajarslvnblog/public"]
+	path = fajarslvnblog/public
+	url = https://github.com/fajarslvn/fajarslvn.github.io.git
+	branch = main
