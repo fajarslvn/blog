@@ -5,7 +5,8 @@ date: 2022-05-18T15:13:52+07:00
 ---
 Hi there!
 
-My Name is Fajar S, I am a white hat hacker & bug bounty hunter.
+My Name is Fajar Sylvana, from Indonesia.  
+I'm a white hat hacker & bug bounty hunter.  
 I has spent more than 10 years in information technology field and
 4 years in information security field, focused in risk from security
 testing point of view as pentester and bug hunter. I has served in
@@ -22,3 +23,5 @@ methodology likes, source code reviews, blackbox testing & API
 Testing. 
 
 I am also using bash, python and golang for scripting.
+
+You Can Contact Me Here -> [CLICK HERE](mailto:jarphish@gmail.com)
