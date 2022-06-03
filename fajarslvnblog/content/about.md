@@ -1,7 +1,7 @@
 ---
 title: "About"
+date: 2022-06-01T12:00:48+07:00
 description: Read a simple resume about me.
-date: 2022-05-18T15:13:52+07:00
 ---
 Hi there!
 

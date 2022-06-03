@@ -1,6 +1,6 @@
 ---
 title: "Finding XSS with source code analysis I"
-date: 2022-06-02T19:00:48+07:00
+date: 2022-06-03T19:00:00+07:00
 tags: [xss, codeanalysis, owasp10]
 description: My way on finding vulnerabilities in new target website, first thing to do are fire up the burp suite (collecting all requests and responses from target).
 ---
