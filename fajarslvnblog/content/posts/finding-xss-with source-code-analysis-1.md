@@ -20,16 +20,22 @@ It was noted that an event listener is waiting for the page to load via `$(windo
 ```js
 $(window).on('load', function() {
 
-    // old code for handling errors, due to be deprecated
+    // old code for handling errors (deprecated)
     var errorCode = decodeURIComponent(getHashValue("error"));  
-    *snipped*
-    if (errorCode != "null")
-    {
+    
+    var uri = window.location.toString();
+
+    if (uri.indexOf("#") > 0) {
+        var clean_uri = uri.substring(o, uri.indexOf("#");
+        window.history.replaceState({}, document.title, clean_uri);
+    }
+
+    if (errorCode != "null") {
         if (errorCode == '2') {
-            // invalid password!
+            // invalid input!
             document.getElementById("errorMsg").innerHTML =  "<div class='alert alert-danger mt-3 d-inline-block' role='alert'> <span class='badge badge-secondary'>Error "+errorCode+"</span> - No match with our records.</div>";
         } else if (errorCode == '1') {
-            // invalid email ?
+            // invalid ?
             document.getElementById("errorMsg").innerHTML = "<div class='alert alert-danger mt-3 d-inline-block' role='alert'> <span class='badge badge-secondary'>Error "+errorCode+"</span> - Not valid. </div>";
         } else {
             document.getElementById("errorMsg").innerHTML =  "<div class='alert alert-danger mt-3 d-inline-block' role='alert'> Error "+errorCode+" - An unexpected error occured. </div>";
