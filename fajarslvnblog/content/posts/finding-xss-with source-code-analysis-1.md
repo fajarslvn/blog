@@ -60,7 +60,7 @@ document.getElementById("errorMsg").innerHTML =  "<div class='alert alert-danger
 
 ```
 
-Can result in XSS as evident by clicking the link below which when when visited by a victim will execute attacker controlled JavaScript in the context of the victim user's browser:
+Can result in XSS as evident when visited by a victim, it will execute attacker controlled JavaScript in the context of the victim user's browser:
 
 ```html
 https://redacted.com/#error=</div></div><img src=x onerror=alert(0)>
